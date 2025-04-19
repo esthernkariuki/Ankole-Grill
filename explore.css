@@ -211,21 +211,19 @@ margin-top: -50px;
   margin-left: 470px;
 }
 
-@media screen and(max-width:500px) {
+@media screen and (max-width:500px) {
   *{
     box-sizing: border-box;
   }
   body{
-  
+  overflow: inherit;
     padding: 0px;
     margin: 0px;
   
   }
 .breakfast-menu{
-   display:flex;  
-   gap: 20px;
    flex-direction: column;
-   width: 100%;
+   width: 130%;
 
   }
   .breakfast-food,.price{
@@ -235,18 +233,75 @@ margin-top: -50px;
     text-align: center;
   }
   #horn-img{
-    margin-left: 0px;
+    margin-left:-900px;
     margin-top: 100px;
+    
   }
   #explore-menu{
-     height: 2vh;
+     height:152vh;
      width: 100%;
-     overflow:hidden; 
-     padding: 0;
+     overflow:hidden;
+     padding: 0
      margin: 0;
     
 
   
+  }
+  .price-special{
+margin-right: 0px;
+margin-top: -50px;
+margin-left: 100px;}
+  .image-list{
+    margin-right: -130px;
+    flex-wrap: wrap;
+    color: aqua;
+   -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    margin-top: -100px;
+  }
+  .breakfast-food-flow{
+    font-size: 15px;
+    margin-right: 0px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+  }
+  .list{
+    display: flex;
+    color:brown ;
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .item-price{
+    padding: 30px 0px;
+  }
+  .item{
+   padding-top:40px;
+  }
+  .breakfast-food{
+    text-align: left;
+   width: 100%;
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+.price{
+  width: 10%;
+  padding-left: 150px;
+  margin-top: -50px;
+  display: flex;
+
+  }
+  .navbar{
+    position: fixed;
+   width: 100%;
+   font-size: 10px;
+  margin-left:200px;
+  }
+  #reservation{
+    height: 25px;
+    width: 25%;
+    font-size: 10px;
+    margin-left: -20px;
+    margin-top: -5px;
   }
   
 }

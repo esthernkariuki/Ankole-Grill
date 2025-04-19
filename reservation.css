@@ -151,8 +151,7 @@ select{
     margin-left: 150px;
 }
 .navbar{
-    position: absolute;
-    bottom: 20px;
+    bottom:20px;
     left: 50%;
     transform: translateX(-50%);
     background:black;
@@ -174,7 +173,7 @@ select{
 
  @media screen and (min-width:501px) and (max-width:1024px) {
     body{
-        overflow: scroll;
+        overflow-y: scroll;
     }
     .reservation{
         display:block;
@@ -207,10 +206,10 @@ select{
         
     }
     form{
-        margin-top: 250px;
+        margin-top: 260px;
     }
     input{
-        height: 30%;
+        height: 50%;
         width: 90%;
         margin-left: 30px;
     }
@@ -233,8 +232,8 @@ select{
         margin-left: 350px;
     }
     .navbar{
-        position: absolute;
-        bottom: 20px;
+        position: fixed;
+        bottom: 360px;
         left: 50%;
         transform: translateX(-50%);
         background:black;
@@ -257,6 +256,9 @@ select{
 
 
  } 
+ @media screen  and (mxx{
+    
+ }
     
  
 
