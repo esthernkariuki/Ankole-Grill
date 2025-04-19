@@ -67,3 +67,6 @@ border-radius: 70px;
 .fa-clock ,.fa-bars{
 color: white;
 }
+@media screen  and (max-width: 500px) {
+
+}

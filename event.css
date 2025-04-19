@@ -73,7 +73,7 @@ color:aqua;
 
 @media screen and (max-width:500px) {
 body{
-  overflow-x:scroll;
+  overflow:hidden
 }
   .event-img{
     display:block;
@@ -90,7 +90,7 @@ body{
   padding-bottom: 200px;
 }
 .navbar{
-  width: 110%;
+  width: 60%;
   font-size: 11px;
   gap: 2%;
   position: fixed;
@@ -104,7 +104,7 @@ body{
 }
 @media screen and (min-width:501px) and (max-width:1050px) {
   body{
-    overflow-x:scroll;
+    overflow-x:hidden;
   }
     .event-img{
       display:block;

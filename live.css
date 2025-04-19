@@ -116,13 +116,16 @@ gap: 30px;
  *{
   box-sizing: border-box;
  }
- body{
-
- }
+body{
+  overflow: inherit;
+  height:900vh;
+  margin:0;
+  padding:0;;
+}
 .live-events{
 margin-left: 300px;
   display:block;
-  margin-top: -830px;
+  margin-top: -930px;
  
 
   gap:20px;
@@ -140,8 +143,8 @@ font-size: 15px;
   margin-left: 250px;
   margin-top: 40px;
 }
+.live-title{
+  margin-left: -200px;
+  margin-top: -300px;
 }
-
-@media screen and (ma{
-  
 }
