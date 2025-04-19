@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Reviews</title>
+    <link rel="stylesheet" href="review.css">
+   
+
+</head>
+<body>
+
+
+
+    <div class="reviews-title">
+        <a href="index.html"> <img src="images/horn-ankole.png" alt="" id="horn" ></a> 
+      </div>
+             <div class="review-container">
+                    <h2 class="reviews-title">Reviews</h2>
+                    <div class="quote-left">“</div>
+                    <p class="review-text" id="reviewText">
+                    <p class="reviewer">Irvin virji</p>
+                    <p class="location">KITISURU</p>
+                    <div class="quote-right">”</div>
+                    <button class="arrow-button arrow-left" id="prevReview">&lt;</button>
+                    <button class="arrow-button arrow-right" id="nextReview">&gt;</button>
+                </div>
+                <script>
+                    const reviews = [
+                        {
+                            text: "This place is run by educated, innovative formative people! The architectural layout, seating, ambience, lighting, cutlery, servings, design has been impeccably well thought out and even the mushrooms were excellent! The food was AWESOME! This is surprising considering that we were there on a Saturday night & they almost had no queues! We were extremely well catered to and failed to find such finesse in Kenya! You must go visit them!",
+                            reviewer: "Irvin virji",
+                            location: "Kilimani"
+                        },
+                        {
+                            text: "Such a fantastic restaurant, I plan on being a regular here. The food is amazing, the atmosphere is so nice, and the service is exceptional. I pray you are able to visit them at least once so you can understand what I'm saying. 10/10. Recommended dishes: Steak. Must go visit them!",
+                            reviewer: "Paul Kamu",
+                            location: "Kitusuru"
+                        },
+                        {
+                            text:"Honestly, it's one of the best places I've ever beento.The staff are so lovely and friendly.They handled everything with the uttermost respect andperfection.I loved the outdoor space, especially at night.They have a fireplace that is cool and gas-poweredfireplaces that keep the outdoor warm and lively.The food is great... especially their beef and grilledlambs are out of this world.Large parking and definitely wheelchair accessible.The ambience is cool and lovely...Will definitelyvisit this place again.",
+                              reviewer: "Wnfresha Makokha",
+                            location: "Kitisuru"
+                        }
+                    ];
+                    let currentReviewIndex = 0;
+                    const reviewTextElement = document.getElementById('reviewText');
+                    const reviewerElement = document.querySelector('.reviewer');
+                    const locationElement = document.querySelector('.location');
+                    const prevButton = document.getElementById('prevReview');
+                    const nextButton = document.getElementById('nextReview');
+                    function updateReview() {
+                        const currentReview = reviews[currentReviewIndex];
+                        reviewTextElement.textContent = currentReview.text;
+                        reviewerElement.textContent = currentReview.reviewer;
+                        locationElement.textContent = currentReview.location;
+                    }
+                    prevButton.addEventListener('click', () => {
+                        currentReviewIndex--;
+                        if (currentReviewIndex < 0) {
+                            currentReviewIndex = reviews.length - 1;
+                        }
+                        updateReview();
+                    });
+                    nextButton.addEventListener('click', () => {
+                        currentReviewIndex++;
+                        if (currentReviewIndex >= reviews.length) {
+                            currentReviewIndex = 0;
+                        }
+                        updateReview();
+                    });
+                  
+                    updateReview();
+                </script>
+               
+                
+
+               <div class="navbar">  
+       
+                <ul>
+                    <i class="fa-solid fa-bars"></i><br>
+                    <div>
+                    <i class="fa-regular fa-clock"></i><br>
+                        
+                </div>
+        
+                    <li><a href="index.html">Home</a></li><br>
+                    <li><a href="menu.html">menu</a></li><br>
+                    <li><a href="review.html">Reviews</a></li><br>
+                    <li><a href="event.html">Event</a></li><br>
+                    <li><a href="live.html">live</a></li><br>
+                    <li><a href="contacts.html">Contacts</a></li><br>
+                    <button id="reservation"><a href="reservation.html">Reservation</a></button>
+                </ul>   
+        </div>
+        
+
+
+
+
+
+    
+        
+
+
+
+
+</body>
+</html>
