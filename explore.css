@@ -233,10 +233,23 @@ margin-top: -50px;
     text-align: center;
   }
   #horn-img{
-    margin-left:-900px;
-    margin-top: 100px;
+    margin-left:-100px;
+    margin-top: 70px;
+    height: 5em;
+    padding-bottom: -70px;
     
   }
+  .image-explore{
+margin-left: -300px;
+margin-top: -200px;
+  }
+  .pricespecial{
+    margin-left: 350px;
+display: flex;
+margin-right: 0px;
+margin-top: -50px;
+  }
+  
   #explore-menu{
      height:152vh;
      width: 100%;
@@ -247,10 +260,29 @@ margin-top: -50px;
 
   
   }
+  .breakfastfood-flow{
+    margin-left: 2cm;
+    font-size: 12px;
+   
+  }
+  .breakfastfoodflow{
+    margin-left: 2cm;
+    font-size: 12px;
+  }
+
+  .imagelist{
+    margin-top:-70px;
+    margin-left: 10px;
+  }
   .price-special{
 margin-right: 0px;
 margin-top: -50px;
 margin-left:-20px;}
+.pricesspecial{
+  margin-right: 0px;
+margin-top: -50px;
+margin-left:350px;}
+
   .image-list{
     margin-right: -130px;
     flex-wrap: wrap;
@@ -265,6 +297,24 @@ margin-left:-20px;}
     margin-left: 100px;
     flex-wrap: wrap;
 
+  }
+  .breakfast-food-flows{
+    margin-left: px;
+  }
+  #horn-imag{
+    height: 2rem;
+    margin-left: -325px;
+  margin-bottom: -40px;
+  }
+  .image-lists{
+    margin-left: -290px;
+  }
+
+  #horn-imge{
+    margin-left:-200px;
+    margin-top: 70px;
+    height: 5em;
+    padding-bottom: -70px;
   }
   .breakfast-food-flow h3{
     margin-left: 100px;
@@ -307,7 +357,14 @@ margin-left:-20px;}
     margin-left: -20px;
     margin-top: -5px;
   }
-  
+  .items{
+    margin-left: -305px;
+    line-height: 2.5;
+  }
+  .fruit{
+    padding-left: -300px;
+  }
+
 }
 
 
