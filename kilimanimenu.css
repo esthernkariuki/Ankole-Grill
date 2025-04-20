@@ -17,7 +17,7 @@ body{
     }
 }
 .menuTitle{
-    background-image: url(images/exolre-menu.jpg);
+  background-image: url(images/exolre-menu.jpg);
     width: 50vw;
     height: 100vh;
 }
@@ -74,16 +74,16 @@ body{
 
 .navbar{
     position: absolute;
-     top: 82%;
+     top: 90%;
      left: 5%;
      padding: 0.7%;
     background-color: black;
-    margin-left: 0px;
+    margin-left: 450px;
     padding-left: 0px;
     width: 40%;
     border-radius: 3em;
     font-size: 1.3em;
-
+    box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
   
   }
   .navbarItems{
@@ -170,6 +170,10 @@ body{
     margin-top: -5%;       
 
   }
+  #reservationsLink:hover{
+    background-color: orange;
+    color: black;
+  }
    
 #whatssapIcon{
     position: absolute;
@@ -188,7 +192,7 @@ body{
       }
  
 
-@media only  screen and (max-width:770px) {
+@media only  screen and (max-width:770px){
    body{
     overflow: scroll;
    }
@@ -374,3 +378,4 @@ flex-direction: column;
   }
 
 }
+ 
