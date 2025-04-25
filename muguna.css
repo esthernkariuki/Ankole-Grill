@@ -19,10 +19,14 @@ border-radius: 70px;
   gap:50%;
 
   }
+  .navbar a:hover{
+    color: aqua;
+  }
+
   .navbar{
     position: absolute;
      top: 90%;
-     left: 5%;
+     left: 30%;
      padding: 0.7%;
     background-color: black;
     margin-left: 0px;

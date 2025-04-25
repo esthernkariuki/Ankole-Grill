@@ -21,6 +21,9 @@ body{
     width: 50vw;
     height: 100vh;
 }
+.navbar a:hover{
+    color: aqua;
+  }
 
 #ankoleLogo{
     width: 20%;

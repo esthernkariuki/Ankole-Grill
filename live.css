@@ -73,9 +73,9 @@ gap: 30px;
     background-color: black;
     margin-left:0px;
     padding-left: 0px;
-    width: 40%;
+    width: 45%;
     border-radius: 3em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
   
@@ -84,6 +84,7 @@ gap: 30px;
     list-style: none;
     display: flex;
     gap: 3%;
+    font-size: 20px;
   
   }
   
@@ -114,6 +115,9 @@ gap: 30px;
 
   .hamburger{
     position: relative;
+  }
+  .navbar a:hover{
+    color: aqua;
   }
   .lists{
     list-style: none;
@@ -166,13 +170,13 @@ gap: 30px;
     border-radius: 1em;
     text-align: center;
     width: 80%;
-    margin-left: 110px; 
-    margin-top: -5px; 
+    margin-left: 70px; 
+    margin-top: -7px; 
     font-size: 20px;     
 
   }
    
-  #reservationLink:hover{
+  #reservationsLink:hover{
     color: burlywood;
     font-weight: bold;
   }
@@ -194,7 +198,7 @@ gap: 30px;
       list-style-type: none;
       margin-left: 0px;
       gap: 20px;
-      font-size: 15px;
+      font-size: 20px;
     }
 
 
@@ -314,6 +318,60 @@ margin-left: 10px;
       margin-left:10px;
       font-size: 18px;
       margin-top: -5px;
+      width: 100%;
     }
+
     
+}
+@media screen and (min-width:1051px) and (max-width:1500px){
+  body{
+    overflow-y:inherit;
+  }
+  .live-header{
+    height: 200vh;
+    width: 100%;
+    padding-left: 300px;
+    
+  }
+  .live-title{
+   color:brown;
+    font-size:70px ;
+    margin-left: -200px;
+  }
+  .live-events{
+    margin-top:-900px;
+    margin-left: 20px;
+  }
+  .live-title h1{
+    color: black;
+  }
+  .live-grid-text {
+    font-size: 2em;
+    text-align: center;
+    margin-right: -100px;}
+    .navbar{
+      width: 20%;
+      position: fixed;
+     height: 8vh;
+      font-size: 10px;
+      bottom: 0;
+      margin-left: 390px;
+
+    }
+    .navbarItems {
+      font-size: 23px;
+      margin-top: 10px;
+      margin-left: -20px;
+    }
+    .navbaricons{
+      display: none;
+      font-size: 13px;
+    }
+    #reservationsLink{
+      margin-left:10px;
+      font-size: 18px;
+      margin-top: -5px;
+      width: 100%;
+    }
+
 }

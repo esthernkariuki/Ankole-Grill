@@ -148,6 +148,9 @@ select{
       padding: 10px 0px;
   
      }
+     .navbar a:hover{
+        color: aqua;
+      }
   
      .mobileMenu hr{
       border: 0;

@@ -90,7 +90,7 @@ color:aqua;
     background-color: black;
     margin-left: 450px;
     padding-left: 0px;
-    width: 50%;
+    width: 45%;
     border-radius: 3em;
     font-size: 1.3em;
     box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
@@ -102,6 +102,9 @@ color:aqua;
     display: flex;
     gap: 3%;
   
+  }
+  .navbar a:hover{
+    color: aqua;
   }
   
   .navbar a{
@@ -178,7 +181,7 @@ color:aqua;
     border-radius: 1em;
     text-align: center;
     width: 90%; 
-    margin-left: 100px;      
+    margin-left: 30px;      
 
   }
   #reservationsLink:hover{
