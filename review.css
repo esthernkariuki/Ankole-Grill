@@ -56,12 +56,10 @@ body {
   .navbar{
     position: absolute;
      top: 82%;
-     left: 5%;
+     left:26%;
      padding: 0.7%;
     background-color: black;
-    margin-left: 0px;
-    padding-left: 0px;
-    width: 40%;
+    width: 46%;
     border-radius: 3em;
     font-size: 1.3em;
     box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
@@ -97,6 +95,10 @@ body {
   
   .clockIcon:hover .popup{
     display: block;
+  }
+  .navbaricons{
+    display: flex;
+    gap: 30px;
   }
 
   .hamburger{
@@ -147,7 +149,7 @@ body {
     padding: 5%;
     border-radius: 1em;
     text-align: center;
-    width: 100%;       
+    width: 110%;       
 
   }
   #reservationLink:hover{
@@ -160,7 +162,6 @@ body {
     font-size: 30px;
     top: 85%;
     left: 93%;
-    
     background-color: black;
     border: white 1px solid;
     border-radius: 2em;
@@ -199,7 +200,34 @@ body {
   right: 10px;
 }
 @media screen and (max-width:500px) {
+  body{
+    font-size: 15px;
+  }
 #horn{
   padding-right: 150px;
+  margin-top: 20px;
 }
+.navbaricons{
+  display: none;
+
+}
+.navbar{
+  margin-top: 30px;
+  width: 60%;
+  margin-left: -30px;
+}
+   
+#whatssapIcon{
+  margin-left: -20px;
+}
+
+}
+@media screen  and (min-width:501px) and (max-width:1050px){
+  .navbaricons{
+    display: none;
+  }
+  .navbar{
+    margin-left:60px;
+    width: 40%;
+  }
 }

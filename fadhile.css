@@ -143,6 +143,23 @@ border-radius: 70px;
 .fa-clock ,.fa-bars{
 color: white;
 }
-@media screen  and (max-width: 500px) {
 
-}
+/* @media  screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+  .menuWrapper {
+    width: 100%;
+  }
+  .mobileMenu {
+    width: 100%;
+  }
+  #reservation {
+    width: 80%;
+  }
+  #whatssapIcon {
+    font-size: 25px;
+  }
+
+  
+} */

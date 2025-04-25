@@ -46,6 +46,7 @@ body{
     border-radius: 3em;
     font-size: 1.3em;
     box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
+    border-radius: 90px;
   
   }
   .navbarItems{
@@ -150,7 +151,7 @@ body{
 
 @media screen and (max-width:500px) {
 body{
-  overflow-y:inherit;
+  overflow-y:scroll;
 }
   .event-img{
     display:block;
@@ -175,8 +176,8 @@ body{
   margin-left: 100px;
 }
 .navbar{
-  width: 90%;
-  font-size: 8px;
+  width: 40%;
+  font-size: 15px;
   gap:1%;
 padding-left: -200px;
   position: fixed;
@@ -187,6 +188,16 @@ padding-left: -200px;
   width: 23%;
   margin-left: -20px;
   font-size: 10px;
+}
+.navbaricons{
+  display: none;
+}
+#reservationsLink{
+  width: 110%;
+  margin-left: 10px;
+}
+.navbarItems{
+  font-size: 23px;
 }
 }
 @media screen and (min-width:501px) and (max-width:1050px) {
@@ -222,16 +233,21 @@ padding-left: -200px;
     padding-bottom: 200px;
   }
   .navbar{
-    width: 110%;
+    width: 30%;
     font-size: 11px;
     gap: 2%;
     position: fixed;
+    
   }
   #reservation{
     height: 20px;
     width: 23%;
     margin-left: -20px;
     font-size: 10px;
+  }
+  .navbaricons{
+    display: none;
+
   }
   .events-text{
     margin-top: -390%;
@@ -240,17 +256,25 @@ padding-left: -200px;
     color: white;
 
   }
-
+#reservationsLink{
+font-size: 28px;
+width: 110%;
+margin-left: 10px;
+}
+.navbarItems{
+  font-size: 30px;
+}
 
   .event-text {
     padding-bottom: -200px;
     color:rgb(254, 252, 253);
   }
   .navbar{
-    width: 110%;
+    width: 30%;
     font-size: 11px;
     gap: 2%;
     position: fixed;
+    margin-left: 120px;
   }
   #reservation{
     height: 20px;

@@ -199,6 +199,10 @@ body{
     overflow: scroll;
     height: 280vh;
 }
+.heading h1{
+    margin-left: -70px;
+    font-size: 41px;
+}
 form{
     margin-top: 250px;
 }
@@ -223,15 +227,23 @@ select{
 
 }
 .horn-ankole{
-    margin-top: -1700px;
-    margin-left: 150px;
+    margin-top: -2400px;
+    margin-left: 100px;
+    height: 3rem;
+
+}
+.navbarItems{
+    margin-top:-5px;
+    margin-left: -30px;
+    font-size: 25px;
 }
 .heading{
-    margin-left: 150px;
+  
+  margin-left: 150px;
 }
 .navbar{
     bottom:20px;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     background:black;
     padding: 20px 30px;
@@ -242,17 +254,34 @@ select{
     height: 8vh;
     font-size: 10px;
     color: antiquewhite;
+    position: fixed;
+    margin-left: -20px;
+    width: 55%;
+   
+ 
    
 }
-#reservation {
-    font-size: 10px;
-    margin-top: -10px;
+#reservationsLink{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 2px;
+
 }
+.navbaricons{
+    display: none;
+    gap: 30px;
+    margin-right:50px;
+    font-size: 30px;
+    position: relative;
+   
 }
 
- @media screen and (min-width:501px) and (max-width:1024px) {
+}
+
+ @media screen and (min-width: 501px) and (max-width:1024px) {
     body{
         overflow-y: scroll;
+       
     }
     .reservation{
         display:block;
@@ -261,6 +290,7 @@ select{
     }
     form{
         margin-top: 250px;
+       
     }
     input{
         height: 30%;
@@ -284,6 +314,12 @@ select{
         height: auto;
         
     }
+    label{
+        font-size: 25px;
+    }
+    ::placeholder{
+        font-size: 19px;
+    }
     form{
         margin-top: 260px;
     }
@@ -302,10 +338,11 @@ select{
         width: 90%;
         border-radius: 10px;
         margin-left: 30px;
+        font-size: 25px;
     }
     .horn-ankole{
-        margin-top:-1450px;
-        margin-left: 250px;
+        margin-top:-1750px;
+        margin-left: 350px;
     }
     .heading{
         margin-left: 350px;
@@ -322,15 +359,23 @@ select{
         justify-content: center;
         backdrop-filter: blur(8px);
         height: 8vh;
-        font-size: 10px;
+        font-size: 30px;
         color: antiquewhite;
+        width: 50%;
+        gap: 150px;
+        font-size: 30px;
+        margin-top: 20px;
        
     }
-    #reservation {
-        font-size: 10px;
-        margin-top: -10px;
+    #reservationsLink{
+        font-size: 20px;
+        margin-top: -5px;
+        width:120%;
+        gap: 100px;
     }
-    
+    .navbaricons{
+        display: none;
+    }
 
 
 
