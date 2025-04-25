@@ -70,13 +70,12 @@ gap: 30px;
     position: absolute;
      top: 82%;
      left: 5%;
-     padding: 0.7%;
     background-color: black;
     margin-left:0px;
     padding-left: 0px;
     width: 40%;
     border-radius: 3em;
-    font-size: 1.3em;
+    font-size: 1.5em;
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(31, 30, 30, 0.2), 0 6px 20px 0 rgba(36, 35, 35, 0.19);
   
@@ -163,10 +162,13 @@ gap: 30px;
    }
    #reservationsLink{
     background-color: grey;
-    padding: 5%;
+    padding: 1%;
     border-radius: 1em;
     text-align: center;
-    width: 110%;       
+    width: 80%;
+    margin-left: 110px; 
+    margin-top: -5px; 
+    font-size: 20px;     
 
   }
    
@@ -184,6 +186,15 @@ gap: 30px;
     border: white 1px solid;
     border-radius: 2em;
     padding: 1%;
+    }
+    .navbaricons{
+      display: flex;
+      width: 40%;
+      padding: 0.7%;
+      list-style-type: none;
+      margin-left: 0px;
+      gap: 20px;
+      font-size: 15px;
     }
 
 

@@ -179,7 +179,9 @@
     padding: 5%;
     border-radius: 1em;
     text-align: center;
-    width: 110%;       
+    width: 60%; 
+    margin-left: 140px;   
+    margin-top: 2px;   
 
   }
   #reservationsLink:hover{
@@ -197,6 +199,14 @@
     border: white 1px solid;
     border-radius: 2em;
     padding: 1%;
+    }
+    .navbaricons{
+      display: flex;
+      width: 40%;
+      padding: 0.7%;
+      list-style-type: none;
+      margin-left: 0px;
+      gap: 20px;
     }
 
 

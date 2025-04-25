@@ -68,7 +68,8 @@ display: flex;
   gap: 3%;
 
 }
-.list{
+
+.navbaricons{
   display: flex;
   position: relative;
   margin-top:-1000px;
